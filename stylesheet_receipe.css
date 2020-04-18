@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&subset=korean');
+@font-face { font-family: 'Noto Sans kr', sans-serif;
+              font-family: 'Nanum Gothic', sans-serif;
+              font-family: ''}
+h1 {font-family: 'Noto Sans KR', sans-serif;}
+
+@media (min-width: 0px) and (max-width: 1000px)
+  {
+
+    body {background-color: white;}
+    h3 {font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        position: fixed;
+        font-weight: 500;}
+
+  .cat0, .cat1, .cat2 {
+        color: black;}
+    .cat0 {display:inline-block; width: 53px; margin:10px;position:fixed;left:515px}
+    .cat1 {display:inline-block; width: 30px; margin:10px;position:fixed;left:600px}
+    .cat2 {display:inline-block; width:67px; margin:10px;position:fixed;left:650px}
+    h4 {font-family: 'Noto Sans KR', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+        color: black;
+        word-break: keep-all;
+        position: fixed;
+        top: 158px;
+        left: 30px;
+        width: 185px;
+        overflow: scroll;
+        }
+
+    h4.made {font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13px;
+        line-height: 23px;
+        font-weight: 400;
+        color: black;
+        word-break: keep-all;
+        position: fixed;
+        top: 158px;
+        left: 170px;
+        width: 150px;
+        overflow: scroll;
+        }
+        h4.made2 {font-family: 'Noto Sans KR', sans-serif;
+            font-size: 13px;
+            line-height: 23px;
+            font-weight: 400;
+            color: black;
+            word-break: keep-all;
+            position: fixed;
+            top: 158px;
+            left: 350px;
+            width: 150px;
+            overflow: scroll;
+            }
+        .jiwon {font-family: 'Ubuntu', sans-serif;
+            font-size: 13px;
+            line-height: 18px;
+            color: black;
+            position:fixed;
+            text-align: right;
+            font-weight: 500;
+            bottom: 5px;
+            right: 230px;}
+
+            .jimyung {font-family: 'Ubuntu', sans-serif;
+                font-size: 13px;
+                line-height: 18px;
+                color: black;
+                position:fixed;
+                text-align: right;
+                font-weight: 500;
+                bottom: 5px;
+                right: 20px;}
+
+
+  .imgsource {display:block;position:absolute;
+              top:180px;left:45%;
+
+              z-index:-1
+              }
+
+
+
+     a {color: black;
+        text-decoration: none;}
+
+        .cat1-1 {
+          font-family: 'Noto Sans KR', sans-serif;
+              font-size: 17.5px;
+              font-weight: 500;
+              color: black;
+            position: fixed;
+            display: inline-block;
+            top: 140px;
+            right: 286px;
+            text-align: right;
+              }
+
+        .cat1-2 {font-family: 'Noto Sans KR', sans-serif;font-weight: 700;
+        color: black;
+            font-size: 17.5px;
+            font-weight: 500;
+            position: fixed;
+            display: inline-block;
+            top: 140px;
+            right:160px;
+            text-align: right;
+              }
+        .cat1-3 {font-family: 'Noto Sans KR', sans-serif;font-weight: 700;
+        color: black;
+            font-size: 17.5px;
+            position: fixed;
+            display: inline-block;
+            font-weight: 500;
+            top: 140px;
+            right:100px;
+            text-align: right;
+              }
+
+        .cat1-4 {font-family: 'Noto Sans KR', sans-serif;font-weight: 700;
+        color: black;
+            font-size: 17.5px;
+            font-weight: 500;
+            position: fixed;
+            display: inline-block;
+            top: 140px;
+            right: 40px;
+            text-align: right;
+              }
+
+
+
+  #kit {position: absolute;}
+
+
+}
+
+
+
+
+@media (min-width: 1001px)
+  {
+
+    body {background-color: white;}
+    h3 {font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+        position: fixed;
+        float: right;
+        font-weight: 500;}
+
+  .cat {
+        color: black;}
+
+    h4 {font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13.5px;
+        line-height: 24px;
+        font-weight: 300;
+        color: black;
+        word-break: keep-all;
+        position: fixed;
+        top: 158px;
+        left: 30px;
+        width: 185px;
+        height: 70%;
+        overflow: scroll;
+        }
+
+        .jiwon {font-family: 'Ubuntu', sans-serif;
+            font-size: 13px;
+            line-height: 18px;
+            color: black;
+            position:fixed;
+            text-align: right;
+            font-weight: 500;
+            bottom: 5px;
+            right: 230px;}
+
+            .jimyung {font-family: 'Ubuntu', sans-serif;
+                font-size: 13px;
+                line-height: 18px;
+                color: black;
+                position:fixed;
+                text-align: right;
+                font-weight: 500;
+                bottom: 5px;
+                right: 20px;}
+
+  .imgsource {display:block;position:absolute;
+              top:180px;left:37%;
+
+              z-index:-1
+              }
+
+
+
+
+
+
+
+
+
+
+
+}
